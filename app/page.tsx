@@ -24,6 +24,7 @@ export default function Home() {
         </ol>
 
         <h1>Hello Next.js !!!</h1>
+        <h1 className=" text-pink-600">Commit testing :) </h1>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
