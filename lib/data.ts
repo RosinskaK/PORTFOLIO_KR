@@ -2,9 +2,14 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-//import corpcommentImg from "@/public/corpcomment.png";
-//import rmtdevImg from "@/public/rmtdev.png";
-//import wordanalyticsImg from "@/public/wordanalytics.png";
+import OnlineShopDtImg from "@/public/OnlineShopDT.png";
+import OnlineShopMobileImg from "@/public/OnlineShopMobile.png";
+import movieOnDtImg from "@/public/movieOnDT.png";
+import movieOnMobileImg from "@/public/movieOnMobile.png";
+import autoSkupDtImg from "@/public/autoSkupDT.jpg";
+import autoSkupMobileImg from "@/public/autoSkupMobile.jpg";
+import readyToGoDtImg from "@/public/readyToGoDT.png";
+import readyToGoMobileImg from "@/public/readyToGoMobile.png";
 
 export const links = [
   {
@@ -35,73 +40,81 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
     title: "Front-End Developer",
-    location: "Orlando, FL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "With nearly two years of experience as a front-end developer, I have worked on diverse projects, prioritizing seamless user experiences and responsive design. By utilizing modern tools like React, TypeScript, Tailwind CSS and Material UI, I create intuitive, visually appealing interfaces and deliver high-quality software solutions.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Jun 2023 - present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "React Developer",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Designed and developed a React-based commercial website AutoSkup for a trading company. I managed the complete development cycle, starting from client requirements analysis, throughout UI design and its execution to deployment via Netlify. I mainly focused on the responsiveness of the website and professional presentation of the client's business.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "February 2024 - March 2024",
+  },
+  {
+    title: "Graduated bootcamp",
+    description: "I graduated after 9 months of studying.",
+    icon: React.createElement(LuGraduationCap),
+    date: "October 2022 - Jun 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Online_shop",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    // imageUrl: corpcommentImg,
+      "An e-commerce app simulating an online fashion store, where users can browse fashion items, add them to their cart or favorites.",
+    tags: ["React", "TypeScript", "React Query", "Tailwind", "Redux"],
+    imageUrl_DT: OnlineShopDtImg,
+    imageUrl_M: OnlineShopMobileImg,
   },
   {
-    title: "rmtDev",
+    title: "MOViEon",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    // imageUrl: rmtdevImg,
+      "A website based on TMDB API, modeled on streaming services such as SkyShowTime. It recommends movies premieres as well as popular TV series. Users can save favorite films in My list, and search for movies in the movie search engine.",
+    tags: [
+      "React",
+      "React Router DOM",
+      "Material UI",
+      "Context API",
+      "Sass (SCSS)",
+    ],
+    imageUrl_DT: movieOnDtImg,
+    imageUrl_M: movieOnMobileImg,
   },
   {
-    title: "Word Analytics",
+    title: "Auto Skup",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    // imageUrl: wordanalyticsImg,
+      "A simple two-page website created for a motor industry trading company, focusing on the professional presentation of the client’s business.",
+    tags: ["React", "Vite", "Material UI", "Sass (SCSS)"],
+    imageUrl_DT: autoSkupDtImg,
+    imageUrl_M: autoSkupMobileImg,
+  },
+  {
+    title: "Ready_to_Go",
+    description:
+      "A to-do list app where users can create a packing list for trips. After logging into the application via a form, the user’s list is saved and stored in the database. List can be edited and reused repeatedly.",
+    tags: ["React", "Vite", "Sass", "Supabase"],
+    imageUrl_DT: readyToGoDtImg,
+    imageUrl_M: readyToGoMobileImg,
   },
 ] as const;
 
 export const skillsData = [
   "HTML",
-  "CSS",
+  "CSS/SCSS",
+  "ECMAScript 6 (ES6)",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "React Query",
+  "Vite",
+  "Tailwind",
+  "Material UI",
   "Framer Motion",
 ] as const;
