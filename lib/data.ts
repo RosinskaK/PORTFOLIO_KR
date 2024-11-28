@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: "Online_shop",
     description:
-      "An e-commerce app simulating an online fashion store, where users can browse fashion items, add them to their cart or favorites.",
+      "An e-commerce app simulating an online fashion store, where users can browse fashion items, add them to cart or favorites.",
     tags: ["React", "TypeScript", "React Query", "Tailwind", "Redux"],
     imageUrl_DT: OnlineShopDtImg,
     imageUrl_M: OnlineShopMobileImg,
