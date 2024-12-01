@@ -9,7 +9,7 @@ import { SiGithub } from "react-icons/si";
 
 function Intro() {
   return (
-    <section className="flex mb-28 max-w-[50rem] sm:mb-0 justify-center flex-col">
+    <section id="home" className="flex mb-28 max-w-[50rem] sm:mb-0 justify-center flex-col scroll-mt-36">
       <div className="flex sm:flex-row flex-col">
         <div className="flex justify-center">
           <motion.div
