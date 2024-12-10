@@ -6,10 +6,17 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { SiGithub } from "react-icons/si";
+import { useSectionInView } from "@/lib/hooks";
 
 function Intro() {
+  const { ref } = useSectionInView("Home", 0.5);
+
   return (
-    <section id="home" className="flex mb-28 max-w-[50rem] sm:mb-0 justify-center flex-col scroll-mt-36">
+    <section
+      ref={ref}
+      id="home"
+      className="flex mb-28 max-w-[50rem] sm:mb-0 justify-center flex-col scroll-mt-36"
+    >
       <div className="flex sm:flex-row flex-col">
         <div className="flex justify-center">
           <motion.div
