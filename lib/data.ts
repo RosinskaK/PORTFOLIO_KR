@@ -1,7 +1,4 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+// import React from "react";
 import OnlineShopDtImg from "@/public/OnlineShopDT.png";
 import OnlineShopMobileImg from "@/public/OnlineShopMobile.png";
 import movieOnDtImg from "@/public/movieOnDT.png";
@@ -43,20 +40,17 @@ export const experiencesData = [
     title: "Front-End Developer",
     description:
       "With nearly two years of experience as a front-end developer, I have worked on diverse projects, prioritizing seamless user experiences and responsive design. By utilizing modern tools like React, TypeScript, Tailwind CSS and Material UI, I create intuitive, visually appealing interfaces and deliver high-quality software solutions.",
-    icon: React.createElement(CgWorkAlt),
     date: "Jun 2023 - present",
   },
   {
     title: "React Developer",
     description:
       "Designed and developed a React-based commercial website AutoSkup for a trading company. I managed the complete development cycle, starting from client requirements analysis, throughout UI design and its execution to deployment via Netlify. I mainly focused on the responsiveness of the website and professional presentation of the client's business.",
-    icon: React.createElement(FaReact),
     date: "February 2024 - March 2024",
   },
   {
     title: "Graduated bootcamp",
     description: "I graduated after 9 months of studying.",
-    icon: React.createElement(LuGraduationCap),
     date: "October 2022 - Jun 2023",
   },
 ] as const;
@@ -104,7 +98,8 @@ export const projectsData = [
 
 export const skillsData = [
   "HTML",
-  "CSS/SCSS",
+  "CSS",
+  "Sass (SCSS)",
   "ECMAScript 6 (ES6)",
   "JavaScript",
   "TypeScript",
