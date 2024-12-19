@@ -7,9 +7,11 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { SiGithub } from "react-icons/si";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/activeSectionContext";
 
 function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const {setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
 
   return (
     <section
@@ -34,10 +36,10 @@ function Intro() {
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-bold">Hello, I'm Kasia Rosińska 👋🏻</span>
+          <span className="font-bold">Hello! I'm Kasia Rosińska</span>
           <br />
-          I'm a <span className="font-bold">front-end developer</span> with{" "}
-          <span className="font-bold">one and a&nbsp;half years</span>{" "}
+          a <span className="font-bold">front-end developer</span> with{" "}
+          <span className="font-bold">two years</span>{" "}
           of&nbsp;experience. I&nbsp;enjoy building{" "}
           <span className="italic">sites &&nbsp;apps</span>. My focus is{" "}
           <span className="underline">React (Next.js)</span>.
@@ -56,6 +58,10 @@ function Intro() {
           href="#contact"
           className="group bg-slate-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.03] 
           hover:scale-105 hover:bg-slate-950 active:scale-105 transition whitespace-nowrap"
+          onClick={() => {
+            setActiveSection("Contact");
+            setTimeOfLastClick(Date.now());
+          }}
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />

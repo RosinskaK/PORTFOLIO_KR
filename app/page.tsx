@@ -1,6 +1,8 @@
 // import Image from "next/image";
 
 import About from "@/components/about";
+import ContactIcons from "@/components/contactIcons";
+// import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Intro from "@/components/intro";
 import Projects from "@/components/projects";
@@ -16,6 +18,8 @@ export default function Home() {
         <Projects />
         <Skills />
         <Experience />
+        {/* <Contact /> */}
+        <ContactIcons />
       </main>
       
   );
