@@ -26,13 +26,13 @@ function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            <div className="w-40 h-52 bg-indigo-500 text-amber-500 border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
+            <div className="w-40 h-52 bg-zinc-500 text-amber-500 border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
               My photo
             </div>
           </motion.div>
         </div>
         <motion.h1
-          className="mb-10 mt-4 sm:mt-0 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl sm:pl-10"
+          className="mb-10 mt-4 sm:mt-0 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl sm:pl-8"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -56,8 +56,8 @@ function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-slate-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.03] 
-          hover:scale-105 hover:bg-slate-950 active:scale-105 transition whitespace-nowrap"
+          className="group bg-violet-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.03] 
+          hover:scale-105 hover:bg-violet-950 active:scale-105 transition whitespace-nowrap"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -77,7 +77,7 @@ function Intro() {
         </a>
         <div className="flex flex-row justify-center items-center gap-2 text-lg">
           <a
-            className="bg-white p-4 text-slate-700 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
+            className="bg-white p-4 text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
               hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60 border border-black/10"
             href="https://www.linkedin.com/in/katarzyna-rosinska/"
             target="_blank"
@@ -85,7 +85,7 @@ function Intro() {
             <BsLinkedin />
           </a>
           <a
-            className="bg-white p-[15px] text-slate-700 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
+            className="bg-white p-[15px] text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
               hover:scale-[1.15] active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60 text-[1.35rem]
               border border-black/10"
             href="https://github.com/RosinskaK"

@@ -3,8 +3,10 @@
 import React, { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
+import { FaGithub } from "react-icons/fa";
 import { useScroll, useTransform } from "motion/react";
 import { motion } from "motion/react";
+import { BsGlobe2 } from "react-icons/bs";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -18,7 +20,7 @@ function Project({
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1.1 1"],
+    offset: ["0 1", "1 1"],
   });
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
@@ -32,14 +34,24 @@ function Project({
       }}
       className=""
     >
-      <article className="bg-slate-100 max-w-[42rem]  px-4 py-6  relative rounded-md hover:bg-slate-200 transition group">
-        <div className="flex pb-4 justify-between">
-          <h3 className="text-2xl font-semibold ">{title}</h3>
-          <div className="text-violet-800">
-            <a href="" target="_blank" className="px-3">
-              see page here
+      <article className="bg-zinc-100 max-w-[42rem] px-4 py-5 relative rounded-xl hover:bg-zinc-200 transition group">
+        <div className="sm:flex sm:flex-row sm:pb-4 pb-2 sm:justify-between flex-col justify-items-center sm:items-center">
+          <h3 className="text-2xl sm:text-xl font-semibold sm:pl-1">{title}</h3>
+          <div className="flex pt-6 sm:pt-0 pb-3 sm:pb-0">
+            <a
+              href=""
+              target="_blank"
+              className="flex px-3 text-violet-900 text-sm underline"
+            >
+              <BsGlobe2 className="h-[19px] w-[19px] mr-1 text-zinc-950" />
+              live link
             </a>
-            <a href="" target="_blank" className="px-3">
+            <a
+              href=""
+              target="_blank"
+              className="flex px-3 text-violet-900 text-sm underline"
+            >
+              <FaGithub className="h-[22px] w-[22px] mr-1 text-zinc-950" />
               code on Github
             </a>
           </div>
@@ -48,24 +60,22 @@ function Project({
           src={imageUrl_DT}
           alt="Project I worked on"
           quality={95}
-          className="rounded-sm top-4 h-fit w-fit overflow-hidden"
+          className="rounded-md top-4 md:w-[640px] overflow-hidden md:h-[315px] w-fit h-fit"
         />
-        <div className="">
+        <div className="hidden md:block">
           <Image
             src={imageUrl_M}
             alt="Project I worked on"
             quality={95}
-            className=" w-32 aspect-auto absolute right-6 rounded-2xl top-[7rem] shadow-2xl shadow-black group-hover:scale-110 transition border border-black/10 group-hover:-translate-x-3 h-[280px]"
+            className="w-auto aspect-auto absolute right-6 rounded-xl top-[5.8rem] shadow-2xl shadow-black group-hover:scale-110 transition border border-black/10 group-hover:-translate-x-3 h-[260px]"
           />
         </div>
-        <p className="mt-4 leading-relaxed text-slate-700 py-3">
-          {description}
-        </p>
-        <ul className="flex flex-wrap pt-4 pb-2 gap-2 justify-center">
+        <p className="leading-relaxed text-zinc-700 py-3 text-base">{description}</p>
+        <ul className="flex flex-wrap pt-2 gap-2 justify-center">
           {tags.map((tag, index) => (
             <li
               key={index}
-              className="bg-violet-700 px-3 py-[6px] text-[0.7rem] uppercase tracking-wider text-white rounded-full "
+              className="bg-zinc-400 px-3 py-[6px] text-[0.7rem] uppercase tracking-wider text-white font-medium rounded-full "
             >
               {tag}
             </li>

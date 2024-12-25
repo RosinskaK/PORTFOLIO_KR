@@ -30,10 +30,10 @@ function Skills() {
       ref={ref}
     >
       <SectionHeading>My Skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+      <ul className="flex flex-wrap justify-center gap-2 text-lg text-zinc-800 items-center">
         {skillsData.map((skils, index) => (
           <motion.li
-            className="bg-white rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
+            className={`rounded-full px-5 py-3 ${skils.color} dark:bg-white/10 dark:text-white/80 flex gap-2 shadow items-center`}
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -43,7 +43,8 @@ function Skills() {
             }}
             custom={index}
           >
-            {skils}
+            <skils.icon className="text-2xl opacity-70" />
+            {skils.name}
           </motion.li>
         ))}
       </ul>

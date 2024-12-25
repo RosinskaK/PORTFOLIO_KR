@@ -7,6 +7,14 @@ import autoSkupDtImg from "@/public/autoSkupDT.jpg";
 import autoSkupMobileImg from "@/public/autoSkupMobile.jpg";
 import readyToGoDtImg from "@/public/readyToGoDT.png";
 import readyToGoMobileImg from "@/public/readyToGoMobile.png";
+// skils icons
+import { MdHtml } from "react-icons/md";
+import { MdCss } from "react-icons/md";
+import { FaSass } from "react-icons/fa6";
+import { DiJsBadge } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 
 export const links = [
   {
@@ -97,19 +105,23 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "Sass (SCSS)",
-  "ECMAScript 6 (ES6)",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Git",
-  "Redux",
-  "React Query",
-  "Vite",
-  "Tailwind",
-  "Material UI",
-  "Framer Motion",
+  {
+    name: "HTML",
+    color: "bg-violet-100",
+    icon: MdHtml,
+  },
+  { name: "CSS", color: "bg-violet-100", icon: MdCss },
+  { name: "Sass", color: "bg-violet-100", icon: FaSass },
+  { name: "ECMAScript 6 (ES6)", color: "bg-violet-800", icon: DiJsBadge },
+  { name: "JavaScript", color: "bg-violet-200", icon: DiJsBadge },
+  { name: "TypeScript", color: "bg-violet-700", icon: SiTypescript },
+  { name: "React", color: "bg-violet-300", icon: SiReact },
+  { name: "Next.js", color: "bg-violet-400", icon: SiNextdotjs },
+  // "Git",
+  // "Redux",
+  // "React Query",
+  // "Vite",
+  // "Tailwind",
+  // "Material UI",
+  // "Framer Motion",
 ] as const;

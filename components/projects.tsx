@@ -12,7 +12,7 @@ function Projects() {
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
       <SectionHeading>My Projects</SectionHeading>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-5">
         {projectsData.map((project) => (
           <React.Fragment key={project.title}>
             <Project {...project} />
