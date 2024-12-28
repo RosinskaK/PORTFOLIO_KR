@@ -32,17 +32,18 @@ function Intro() {
           </motion.div>
         </div>
         <motion.h1
-          className="mb-10 mt-4 sm:mt-0 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl sm:pl-8"
+          className="mb-10 mt-4 sm:mt-0 px-4 text-2xl font-normal !leading-[1.5] sm:text-3xl sm:pl-8"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          <span className="font-bold">Hello! I'm Kasia Rosińska</span>
-          <br />
-          a <span className="font-bold">front-end developer</span> with{" "}
-          <span className="font-bold">two years</span>{" "}
+          Hello! I'm
+          <span className="font-extrabold"> Kasia Rosińska</span>
+          <br />a <span className="font-bold">
+            front-end developer
+          </span> with <span className="font-bold">two years</span>{" "}
           of&nbsp;experience. I&nbsp;enjoy building{" "}
           <span className="italic">sites &&nbsp;apps</span>. My focus is{" "}
-          <span className="underline">React (Next.js)</span>.
+          <span className="font-semibold">React, Next.js and JavaScript</span>.
         </motion.h1>
       </div>
 

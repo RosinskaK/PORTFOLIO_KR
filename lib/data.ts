@@ -45,7 +45,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Front-End Developer",
+    title: "Front-end Developer",
     description:
       "With nearly two years of experience as a front-end developer, I have worked on diverse projects, prioritizing seamless user experiences and responsive design. By utilizing modern tools like React, TypeScript, Tailwind CSS and Material UI, I create intuitive, visually appealing interfaces and deliver high-quality software solutions.",
     date: "Jun 2023 - present",
@@ -57,7 +57,7 @@ export const experiencesData = [
     date: "February 2024 - March 2024",
   },
   {
-    title: "Graduated bootcamp",
+    title: "JavaScript Developer - graduated bootcamp",
     description: "I graduated after 9 months of studying.",
     date: "October 2022 - Jun 2023",
   },
@@ -107,17 +107,17 @@ export const projectsData = [
 export const skillsData = [
   {
     name: "HTML",
-    color: "bg-violet-100",
+    color: "bg-violet-400",
     icon: MdHtml,
   },
-  { name: "CSS", color: "bg-violet-100", icon: MdCss },
-  { name: "Sass", color: "bg-violet-100", icon: FaSass },
-  { name: "ECMAScript 6 (ES6)", color: "bg-violet-800", icon: DiJsBadge },
-  { name: "JavaScript", color: "bg-violet-200", icon: DiJsBadge },
-  { name: "TypeScript", color: "bg-violet-700", icon: SiTypescript },
-  { name: "React", color: "bg-violet-300", icon: SiReact },
-  { name: "Next.js", color: "bg-violet-400", icon: SiNextdotjs },
-  // "Git",
+  { name: "CSS", color: "bg-violet-500", icon: MdCss },
+  { name: "Sass", color: "bg-violet-600", icon: FaSass },
+  { name: "ECMAScript 6 (ES6)", color: "bg-violet-400", icon: DiJsBadge },
+  { name: "JavaScript", color: "bg-violet-600", icon: DiJsBadge },
+  { name: "TypeScript", color: "bg-violet-400", icon: SiTypescript },
+  { name: "React", color: "bg-violet-500", icon: SiReact },
+  { name: "Next.js", color: "bg-violet-600", icon: SiNextdotjs },
+  // "Git", 
   // "Redux",
   // "React Query",
   // "Vite",

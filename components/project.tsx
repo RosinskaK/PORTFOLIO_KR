@@ -36,12 +36,12 @@ function Project({
     >
       <article className="bg-zinc-100 max-w-[42rem] px-4 py-5 relative rounded-xl hover:bg-zinc-200 transition group">
         <div className="sm:flex sm:flex-row sm:pb-4 pb-2 sm:justify-between flex-col justify-items-center sm:items-center">
-          <h3 className="text-2xl sm:text-xl font-semibold sm:pl-1">{title}</h3>
+          <h3 className="text-4xl sm:text-xl font-bold sm:pl-1">{title}</h3>
           <div className="flex pt-6 sm:pt-0 pb-3 sm:pb-0">
             <a
               href=""
               target="_blank"
-              className="flex px-3 text-violet-900 text-sm underline"
+              className="flex px-3 text-violet-900 text-sm underline italic"
             >
               <BsGlobe2 className="h-[19px] w-[19px] mr-1 text-zinc-950" />
               live link
@@ -49,7 +49,7 @@ function Project({
             <a
               href=""
               target="_blank"
-              className="flex px-3 text-violet-900 text-sm underline"
+              className="flex px-3 text-violet-900 text-sm underline italic"
             >
               <FaGithub className="h-[22px] w-[22px] mr-1 text-zinc-950" />
               code on Github
@@ -70,12 +70,15 @@ function Project({
             className="w-auto aspect-auto absolute right-6 rounded-xl top-[5.8rem] shadow-2xl shadow-black group-hover:scale-110 transition border border-black/10 group-hover:-translate-x-3 h-[260px]"
           />
         </div>
-        <p className="leading-relaxed text-zinc-700 py-3 text-base">{description}</p>
+        <p className="leading-relaxed py-3 text-base font-light">
+          {description}
+        </p>
         <ul className="flex flex-wrap pt-2 gap-2 justify-center">
           {tags.map((tag, index) => (
             <li
               key={index}
-              className="bg-zinc-400 px-3 py-[6px] text-[0.7rem] uppercase tracking-wider text-white font-medium rounded-full "
+              className="px-3 py-[6px] text-[0.8rem] uppercase tracking-wider text-violet-800 font-bold rounded-md border-violet-800 
+              border-[3px] bg-zinc-100 group-hover:bg-zinc-200 group-hover:border-violet-600 group-hover:text-violet-600 transition"
             >
               {tag}
             </li>
