@@ -15,6 +15,36 @@ import { DiJsBadge } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { ImGit } from "react-icons/im";
+import { SiRedux } from "react-icons/si";
+import { SiReactquery } from "react-icons/si";
+import { SiVite } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiMui } from "react-icons/si";
+import { TbBrandFramerMotion } from "react-icons/tb";
+
+
+export const skillsData = [
+  {
+    name: "HTML",
+    color: "bg-violet-400",
+    icon: MdHtml,
+  },
+  { name: "CSS", color: "bg-violet-500", icon: MdCss },
+  { name: "Sass", color: "bg-violet-600", icon: FaSass },
+  { name: "ECMAScript 6 (ES6)", color: "bg-violet-400", icon: DiJsBadge },
+  { name: "JavaScript", color: "bg-violet-600", icon: DiJsBadge },
+  { name: "TypeScript", color: "bg-violet-400", icon: SiTypescript },
+  { name: "React", color: "bg-violet-500", icon: SiReact },
+  { name: "Next.js", color: "bg-violet-600", icon: SiNextdotjs },
+  { name: "Git", color: "bg-violet-600", icon: ImGit },
+  { name: "Redux", color: "bg-violet-600", icon: SiRedux },
+  { name: "React Query", color: "bg-violet-600", icon: SiReactquery },
+  { name: "Vite", color: "bg-violet-600", icon: SiVite },
+  { name: "Tailwind", color: "bg-violet-600", icon: SiTailwindcss },
+  { name: "Material UI", color: "bg-violet-600", icon: SiMui },
+  { name: "Framer Motion", color: "bg-violet-600", icon: TbBrandFramerMotion },
+] as const;
 
 export const links = [
   {
@@ -104,24 +134,3 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = [
-  {
-    name: "HTML",
-    color: "bg-violet-400",
-    icon: MdHtml,
-  },
-  { name: "CSS", color: "bg-violet-500", icon: MdCss },
-  { name: "Sass", color: "bg-violet-600", icon: FaSass },
-  { name: "ECMAScript 6 (ES6)", color: "bg-violet-400", icon: DiJsBadge },
-  { name: "JavaScript", color: "bg-violet-600", icon: DiJsBadge },
-  { name: "TypeScript", color: "bg-violet-400", icon: SiTypescript },
-  { name: "React", color: "bg-violet-500", icon: SiReact },
-  { name: "Next.js", color: "bg-violet-600", icon: SiNextdotjs },
-  // "Git", 
-  // "Redux",
-  // "React Query",
-  // "Vite",
-  // "Tailwind",
-  // "Material UI",
-  // "Framer Motion",
-] as const;

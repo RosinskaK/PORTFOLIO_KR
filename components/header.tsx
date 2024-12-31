@@ -33,14 +33,14 @@ export default function Header() {
                   setTimeOfLastClick(Date.now());
                 }}
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-zinc-950 transition",
+                  "flex w-full items-center justify-center px-3 py-3 hover:text-zinc-950 transition dark:text-zinc-400 dark:hover:text-zinc-200",
                   { "text-zinc-950": activeSection === link.name }
                 )}
               >
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span
-                    className="bg-zinc-100 rounded-full absolute inset-0 -z-10"
+                    className="bg-zinc-100 rounded-full absolute inset-0 -z-10 dark:bg-zinc-800"
                     layoutId="activSection"
                     transition={{
                       type: "spring",

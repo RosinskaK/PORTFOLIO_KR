@@ -3,6 +3,8 @@
 import React from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
+import Image from "next/image";
+import imageKR from "../public/kr.jpg";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { SiGithub } from "react-icons/si";
@@ -11,7 +13,7 @@ import { useActiveSectionContext } from "@/context/activeSectionContext";
 
 function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
-  const {setActiveSection, setTimeOfLastClick} = useActiveSectionContext();
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -26,8 +28,8 @@ function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            <div className="w-40 h-52 bg-zinc-500 text-amber-500 border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
-              My photo
+            <div className="w-40 h-52 border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
+              <Image src={imageKR} alt="kr" quality={95} />
             </div>
           </motion.div>
         </div>
@@ -37,7 +39,10 @@ function Intro() {
           animate={{ opacity: 1, y: 0 }}
         >
           Hello! I'm
-          <span className="font-extrabold"> Kasia Rosińska</span>
+          <span className="font-extrabold dark:text-white">
+            {" "}
+            Kasia Rosińska
+          </span>
           <br />a <span className="font-bold">
             front-end developer
           </span> with <span className="font-bold">two years</span>{" "}
@@ -69,7 +74,7 @@ function Intro() {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 
-        active:scale-[1.03] transition cursor-pointer border border-black/10 dark:bg-white/10 whitespace-nowrap"
+        active:scale-[1.03] transition cursor-pointer border border-black/10 dark:bg-white/10 whitespace-nowrap dark:hover:text-white"
           href="/CV.pdf"
           download
         >
@@ -79,7 +84,8 @@ function Intro() {
         <div className="flex flex-row justify-center items-center gap-2 text-lg">
           <a
             className="bg-white p-4 text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
-              hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60 border border-black/10"
+              hover:scale-[1.15] active:scale-105 transition cursor-pointer  dark:bg-white/10 dark:text-white/60 border border-black/10
+              dark:hover:text-white"
             href="https://www.linkedin.com/in/katarzyna-rosinska/"
             target="_blank"
           >
@@ -88,7 +94,7 @@ function Intro() {
           <a
             className="bg-white p-[15px] text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
               hover:scale-[1.15] active:scale-105 transition cursor-pointer dark:bg-white/10 dark:text-white/60 text-[1.35rem]
-              border border-black/10"
+              border border-black/10 dark:hover:text-white"
             href="https://github.com/RosinskaK"
             target="_blank"
           >
