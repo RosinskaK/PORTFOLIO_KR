@@ -21,20 +21,20 @@ function Intro() {
       id="home"
       className="flex mb-28 max-w-[50rem] sm:mb-0 justify-center flex-col scroll-mt-36"
     >
-      <div className="flex sm:flex-row flex-col">
-        <div className="flex justify-center">
+      <div className="flex sm:flex-row flex-col-reverse">
+        <div className="flex justify-center mb-4">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            <div className="w-40 h-52 border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
-              <Image src={imageKR} alt="kr" quality={95} />
+            <div className="w-40 h-auto border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
+              <Image src={imageKR} alt="kr" quality={95} className=" rounded-lg" />
             </div>
           </motion.div>
         </div>
         <motion.h1
-          className="mb-10 mt-4 sm:mt-0 px-4 text-2xl font-normal !leading-[1.5] sm:text-3xl sm:pl-8"
+          className="mb-3 mt-0 sm:mt-0 sm:px-4 text-2xl font-normal !leading-[1.5] sm:text-3xl sm:pl-8"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -43,7 +43,7 @@ function Intro() {
             {" "}
             Kasia Rosińska
           </span>
-          <br />a <span className="font-bold">
+          <br />a <span className="font-bold italic">
             front-end developer
           </span> with <span className="font-bold">two years</span>{" "}
           of&nbsp;experience. I&nbsp;enjoy building{" "}
