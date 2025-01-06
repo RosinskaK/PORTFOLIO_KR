@@ -83,7 +83,7 @@ export const experiencesData = [
   {
     title: "React Developer",
     description:
-      "Designed and developed a React-based commercial website AutoSkup for a trading company. I managed the complete development cycle, starting from client requirements analysis, throughout UI design and its execution to deployment via Netlify. I mainly focused on the responsiveness of the website and professional presentation of the client's business.",
+      "I designed and developed a React-based commercial website AutoSkup for a trading company. I managed the complete development cycle, starting from client requirements analysis, throughout UI design and its execution to deployment via Netlify. Mainly focusing on the responsiveness of the website and professional presentation of the client's business.",
     date: "February 2024 - March 2024",
   },
   {

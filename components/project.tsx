@@ -80,8 +80,8 @@ function Project({
           {tags.map((tag, index) => (
             <li
               key={index}
-              className="px-3 py-[6px] text-[0.8rem] uppercase tracking-wider text-violet-800 font-bold rounded-md border-violet-800 
-              border-[3px] bg-zinc-100 group-hover:bg-zinc-200 group-hover:border-violet-600 group-hover:text-violet-600 transition
+              className="px-2 py-[4px] text-[0.7rem] uppercase tracking-wider text-violet-800 font-semibold rounded-md border-violet-800 
+              border-[1px] bg-zinc-100 group-hover:bg-zinc-200 group-hover:border-violet-600 group-hover:text-violet-600 transition
               dark:bg-white/10 dark:group-hover:bg-black/20 dark:border-violet-400 dark:text-violet-400
               dark:group-hover:border-violet-500 dark:group-hover:text-violet-500"
             >
