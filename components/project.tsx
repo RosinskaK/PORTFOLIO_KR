@@ -70,7 +70,7 @@ function Project({
             src={imageUrl_M}
             alt="Project I worked on"
             quality={95}
-            className="w-auto aspect-auto absolute right-6 rounded-xl top-[5.8rem] shadow-2xl shadow-black group-hover:scale-110 transition border border-black/10 group-hover:-translate-x-3 h-[260px]"
+            className="w-auto aspect-auto absolute right-6 rounded-xl top-[6rem] shadow-2xl shadow-black group-hover:scale-110 transition border border-black/10 group-hover:-translate-x-3 h-[260px]"
           />
         </div>
         <p className="leading-relaxed py-3 text-base font-light">

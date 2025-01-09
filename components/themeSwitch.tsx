@@ -41,9 +41,9 @@ function ThemeSwitch() {
       onClick={handleTheme}
     >
       {theme === "light" ? (
-        <GoSun className="w-[26px] h-[26px]" />
-      ) : (
         <RiMoonClearFill className="w-[26px] h-[26px]" />
+      ) : (
+        <GoSun className="w-[26px] h-[26px]" />
       )}
     </button>
   );

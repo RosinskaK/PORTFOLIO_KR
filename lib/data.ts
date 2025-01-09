@@ -16,6 +16,7 @@ import { SiTypescript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { ImGit } from "react-icons/im";
+import { MdWeb } from "react-icons/md";
 import { SiRedux } from "react-icons/si";
 import { SiReactquery } from "react-icons/si";
 import { SiVite } from "react-icons/si";
@@ -38,6 +39,7 @@ export const skillsData = [
   { name: "React", color: "bg-violet-500", icon: SiReact },
   { name: "Next.js", color: "bg-violet-600", icon: SiNextdotjs },
   { name: "Git", color: "bg-violet-600", icon: ImGit },
+  { name: "Responsive Web Design", color: "bg-violet-600", icon: MdWeb },
   { name: "Redux", color: "bg-violet-600", icon: SiRedux },
   { name: "React Query", color: "bg-violet-600", icon: SiReactquery },
   { name: "Vite", color: "bg-violet-600", icon: SiVite },
@@ -88,7 +90,8 @@ export const experiencesData = [
   },
   {
     title: "JavaScript Developer - graduated bootcamp",
-    description: "I graduated after 9 months of studying.",
+    description:
+      "I graduated after 9 months of studying the fundamentals of front-end development, such as HTML, CSS, and JavaScript.",
     date: "October 2022 - Jun 2023",
   },
 ] as const;

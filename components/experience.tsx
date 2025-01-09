@@ -20,7 +20,7 @@ function Experience() {
           <div key={i} className="bg-zinc-100 p-4 rounded-xl dark:bg-white/10">
             <h3 className="font-bold text-lg pl-1">{exper.title}</h3>
             <p className=" text-violet-400 italic text-sm pt-1 pb-2 font-semibold pl-1">{exper.date}</p>
-            <p className="font-light bg-white py-2 px-2 rounded-lg dark:bg-white/20">{exper.description}</p>
+            <p className="font-light bg-white py-2 px-2 rounded-lg dark:bg-white/15 text-base">{exper.description}</p>
           </div>
         ))}
       </article>
