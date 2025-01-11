@@ -35,8 +35,8 @@ const { ref } = useSectionInView("About");
         <span className="italic font-medium">HTML, CSS, and JavaScript</span>{" "}
         I&nbsp;thought of programming as a&nbsp;kind of magic, but as
         I&nbsp;studied it, I realized it’s a&nbsp;fascinating, methodical and
-        enjoyable thing to do. Now, I&nbsp;want programming to be
-        an&nbsp;integral part of my daily life.
+        enjoyable thing to do. Now, I&nbsp;can't even imagine coding not being a
+        part of my daily life.
       </p>
       <p className=" indent-3">
         <span className="italic">My favorite aspect of programming</span> is
@@ -48,7 +48,7 @@ const { ref } = useSectionInView("About");
         on&nbsp;a&nbsp;daily basis. I am continuously learning and gradually
         implementing new tools and technologies, such as{" "}
         <span className="font-medium">Next.js and Tailwind</span> into my
-        projects. I am currently seeking a&nbsp;
+        projects. At the moment, I am seeking a&nbsp;
         <span className="font-medium">full-time position</span> as
         a&nbsp;front-end developer.
       </p>

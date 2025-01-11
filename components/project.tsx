@@ -73,7 +73,7 @@ function Project({
             className="w-auto aspect-auto absolute right-6 rounded-xl top-[6rem] shadow-2xl shadow-black group-hover:scale-110 transition border border-black/10 group-hover:-translate-x-3 h-[260px]"
           />
         </div>
-        <p className="leading-relaxed py-3 text-base font-light">
+        <p className="leading-relaxed text-base font-light bg-white py-1 px-2 rounded-lg dark:bg-white/15 mt-3 mb-2">
           {description}
         </p>
         <ul className="flex flex-wrap pt-2 gap-2 justify-center">

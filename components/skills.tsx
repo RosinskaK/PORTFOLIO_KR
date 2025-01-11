@@ -30,11 +30,10 @@ function Skills() {
       ref={ref}
     >
       <SectionHeading>My Skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-3 text-lg text-zinc-800 items-center">
+      <ul className="flex flex-wrap justify-center gap-3 text-base sm:text-lg text-zinc-800 items-center">
         {skillsData.map((skils, index) => (
           <motion.li
-            className={`mb-4 rounded-full px-5 py-3 bg-violet-500 dark:bg-white/10 dark:text-white/80 flex gap-2 items-center
-             text-white shadow-lg shadow-violet-600/50`}
+            className={`sm:mb-4 mb-2 rounded-full px-3 sm:px-5 py-2 sm:py-3 bg-violet-500 dark:bg-white/10 dark:text-white/80 flex gap-2 items-center text-white shadow-lg shadow-violet-600/50`}
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
@@ -44,7 +43,7 @@ function Skills() {
             }}
             custom={index}
           >
-            <skils.icon className="text-2xl" />
+            <skils.icon className="sm:text-2xl text-xl" />
             <span className="font-medium">{skils.name}</span>
           </motion.li>
         ))}
