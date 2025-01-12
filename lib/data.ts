@@ -89,9 +89,9 @@ export const experiencesData = [
     date: "February 2024 - March 2024",
   },
   {
-    title: "JavaScript Developer - graduated bootcamp",
+    title: "JavaScript Developer - graduated from a bootcamp",
     description:
-      "I graduated after 9 months of studying the fundamentals of front-end development, such as HTML, CSS, and JavaScript.",
+      "I completed a 9-month program focused on the fundamentals of front-end development, such as HTML, CSS, and JavaScript. During the JavaScript bootcamp, I collaborated with a team to build a project in JavaScript using SCRUM methodology and Trello within 12 days.",
     date: "October 2022 - Jun 2023",
   },
 ] as const;

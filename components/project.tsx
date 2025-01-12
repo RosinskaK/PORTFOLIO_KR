@@ -35,11 +35,11 @@ function Project({
       className=""
     >
       <article
-        className="bg-zinc-100 max-w-[42rem] px-4 py-5 relative rounded-xl hover:bg-zinc-200 transition group dark:bg-white/10
+        className="bg-zinc-200 max-w-[42rem] px-4 py-5 relative rounded-xl hover:bg-zinc-300 transition group dark:bg-white/10
       dark:hover:bg-white/20 dark:transition"
       >
         <div className="sm:flex sm:flex-row sm:pb-4 pb-2 sm:justify-between flex-col justify-items-center sm:items-center items-center">
-          <h3 className="text-3xl sm:text-2xl font-bold sm:pl-1">{title}</h3>
+          <h3 className="text-2xl font-bold sm:pl-1">{title}</h3>
           <div className="flex pt-6 sm:pt-0 pb-3 sm:pb-0">
             <a
               href=""
@@ -47,7 +47,7 @@ function Project({
               className="flex px-3 text-violet-900 text-base underline italic dark:text-violet-400 justify-center items-center"
             >
               <BsGlobe2 className="h-[20px] w-[20px] mr-2 text-zinc-950 dark:text-white/80" />
-              live link
+              View live: Here
             </a>
             <a
               href=""
@@ -73,7 +73,7 @@ function Project({
             className="w-auto aspect-auto absolute right-6 rounded-xl top-[6rem] shadow-2xl shadow-black group-hover:scale-110 transition border border-black/10 group-hover:-translate-x-3 h-[260px]"
           />
         </div>
-        <p className="leading-relaxed text-base font-light bg-white py-1 px-2 rounded-lg dark:bg-white/15 mt-3 mb-2">
+        <p className="leading-relaxed text-base font-light sm:font-normal bg-white py-1 px-2 rounded-lg dark:bg-white/15 mt-3 mb-2">
           {description}
         </p>
         <ul className="flex flex-wrap pt-2 gap-2 justify-center">
@@ -81,7 +81,7 @@ function Project({
             <li
               key={index}
               className="px-2 py-[4px] text-[0.7rem] uppercase tracking-wider text-violet-800 font-semibold rounded-md border-violet-800 
-              border-[1px] bg-zinc-100 group-hover:bg-zinc-200 group-hover:border-violet-600 group-hover:text-violet-600 transition
+              border-[1px] bg-zinc-100 group-hover:border-violet-600 group-hover:text-violet-600 transition
               dark:bg-white/10 dark:group-hover:bg-black/20 dark:border-violet-400 dark:text-violet-400
               dark:group-hover:border-violet-500 dark:group-hover:text-violet-500"
             >

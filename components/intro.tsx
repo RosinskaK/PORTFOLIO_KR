@@ -19,7 +19,7 @@ function Intro() {
     <section
       ref={ref}
       id="home"
-      className="flex mb-28 max-w-[50rem] sm:mb-0 justify-center flex-col scroll-mt-36"
+      className="flex mb-28 max-w-[50rem] sm:mb-0 justify-center flex-col scroll-mt-36 relative"
     >
       <div className="flex sm:flex-row flex-col-reverse">
         <div className="flex justify-center mb-4">
@@ -29,7 +29,7 @@ function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <div className="w-40 h-auto border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
-              <Image src={imageKR} alt="kr" quality={95} className=" rounded-lg" />
+              <Image src={imageKR} alt="kr" quality={95} className=" rounded-lg"/>
             </div>
           </motion.div>
         </div>

@@ -26,7 +26,7 @@ function Skills() {
   return (
     <section
       id="skills"
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40 relative"
       ref={ref}
     >
       <SectionHeading>My Skills</SectionHeading>
