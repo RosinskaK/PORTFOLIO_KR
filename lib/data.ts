@@ -100,7 +100,7 @@ export const projectsData = [
   {
     title: "Online_shop",
     description:
-      "An e-commerce app simulating an online fashion store, where users can browse fashion items, add them to cart or favorites.",
+      "A responsive e-commerce app simulating an online fashion store, where user can browse fashion items, add them to cart and favorite list. Integrated with the FakeStore API to dynamically display product data.",
     tags: ["React", "TypeScript", "React Query", "Tailwind", "Redux"],
     imageUrl_DT: OnlineShopDtImg,
     imageUrl_M: OnlineShopMobileImg,
@@ -108,7 +108,7 @@ export const projectsData = [
   {
     title: "MOViEon",
     description:
-      "A website based on TMDB API, modeled on streaming services such as SkyShowTime. It recommends movies premieres as well as popular TV series. Users can save favorite films in My list, and search for movies in the movie search engine.",
+      "A website based on TMDB API, modeled on streaming services such as SkyShowTime. It recommends movies premieres as well as popular TV series. Users can save their favorite films in the My List and search for movies using a dedicated search engine. The platform provides detailed information about movies and series, including descriptions, genres, photos, and a link to the trailer on YouTube.",
     tags: [
       "React",
       "React Router DOM",
@@ -122,7 +122,7 @@ export const projectsData = [
   {
     title: "Auto Skup",
     description:
-      "A simple two-page website created for a motor industry trading company, focusing on the professional presentation of the client’s business.",
+      "A simple two-page website with Home and Contact pages, created for a motor industry trading company. The site focuses on the professional presentation of the client’s business.",
     tags: ["React", "Vite", "Material UI", "Sass (SCSS)"],
     imageUrl_DT: autoSkupDtImg,
     imageUrl_M: autoSkupMobileImg,

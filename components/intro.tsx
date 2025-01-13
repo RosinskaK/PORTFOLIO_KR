@@ -29,7 +29,12 @@ function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <div className="w-40 h-auto border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
-              <Image src={imageKR} alt="kr" quality={95} className=" rounded-lg"/>
+              <Image
+                src={imageKR}
+                alt="kr"
+                quality={95}
+                className=" rounded-lg"
+              />
             </div>
           </motion.div>
         </div>
@@ -45,8 +50,9 @@ function Intro() {
           </span>
           <br />a <span className="font-bold italic">
             front-end developer
-          </span> with <span className="font-bold">two years</span>{" "}
-          of&nbsp;experience. I&nbsp;enjoy building{" "}
+          </span>{" "}
+          with <span className="font-bold">two years</span> of&nbsp;experience.
+          I&nbsp;enjoy building{" "}
           <span className="italic">sites &&nbsp;apps</span>. My focus is{" "}
           <span className="font-semibold">React, Next.js and JavaScript</span>.
         </motion.h1>
@@ -75,7 +81,7 @@ function Intro() {
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 
         active:scale-[1.03] transition cursor-pointer border border-black/10 dark:bg-white/10 whitespace-nowrap dark:hover:text-white"
-          href="/CV.pdf"
+          href="/CVRosinskaKatarzyna.pdf"
           download
         >
           Download CV now{" "}
