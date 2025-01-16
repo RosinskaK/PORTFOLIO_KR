@@ -13,7 +13,9 @@ export default function Header() {
   return (
     <header className="z-[999] relative">
       <motion.div
-        className="fixed top-0 left-1/2 h-[5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-zinc-950 dark:border-black/40 dark:bg-opacity-75"
+        className="fixed top-0 left-1/2 h-[5rem] w-full rounded-none border border-white/30 border-opacity-40 bg-white bg-opacity-40 
+        shadow-2xl shadow-black/[0.03] backdrop-blur-lg sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-zinc-950 
+        dark:border-black/20 dark:bg-opacity-50 dark:shadow-xl"
         initial={{ y: -100, x: "-50%", opacity: 0 }}
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
@@ -33,14 +35,14 @@ export default function Header() {
                   setTimeOfLastClick(Date.now());
                 }}
                 className={clsx(
-                  "flex w-full items-center justify-center py-2 px-3 sm:py-3 hover:text-zinc-950 transition dark:text-zinc-400 dark:hover:text-zinc-200",
+                  "flex w-full items-center justify-center py-2 px-3 sm:py-3 hover:text-zinc-950 transition dark:text-zinc-200 dark:hover:text-zinc-200 text-zinc-700",
                   { "text-zinc-950": activeSection === link.name }
                 )}
               >
                 {link.name}
                 {link.name === activeSection && (
                   <motion.span
-                    className="bg-zinc-200 rounded-full absolute inset-0 -z-10 dark:bg-zinc-700"
+                    className="bg-zinc-200/60 rounded-full absolute inset-0 -z-10 dark:bg-zinc-700/60 dark:text-zinc-100 shadow-inner shadow-zinc-400 bg-opacity-50 dark:shadow-zinc-900"
                     layoutId="activSection"
                     transition={{
                       type: "spring",

@@ -28,12 +28,12 @@ function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            <div className="w-40 h-auto border-[0.2rem] border-white object-cover rounded-xl shadow-xl">
+            <div className="w-40 h-auto border-[0.2rem] dark:border-white object-cover rounded-xl border-violet-300 shadow-md">
               <Image
                 src={imageKR}
                 alt="kr"
                 quality={95}
-                className=" rounded-lg"
+                className="rounded-lg"
               />
             </div>
           </motion.div>

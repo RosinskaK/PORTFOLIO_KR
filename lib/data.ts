@@ -99,6 +99,8 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "Online_shop",
+    linkLiveView: "https://onlineshop2024.netlify.app",
+    linkGitHub: "https://github.com/RosinskaK/Online_shop",
     description:
       "A responsive e-commerce app simulating an online fashion store, where user can browse fashion items, add them to cart and favorite list. Integrated with the FakeStore API to dynamically display product data.",
     tags: ["React", "TypeScript", "React Query", "Tailwind", "Redux"],
@@ -107,6 +109,8 @@ export const projectsData = [
   },
   {
     title: "MOViEon",
+    linkLiveView: "https://movieon24.netlify.app",
+    linkGitHub: "https://github.com/RosinskaK/MOViEon_project",
     description:
       "A website based on TMDB API, modeled on streaming services such as SkyShowTime. It recommends movies premieres as well as popular TV series. Users can save their favorite films in the My List and search for movies using a dedicated search engine. The platform provides detailed information about movies and series, including descriptions, genres, photos, and a link to the trailer on YouTube.",
     tags: [
@@ -121,6 +125,8 @@ export const projectsData = [
   },
   {
     title: "Auto Skup",
+    linkLiveView: "https://autoskup-krk.pl",
+    linkGitHub: "https://github.com/RosinskaK/autoskup_c",
     description:
       "A simple two-page website with Home and Contact pages, created for a motor industry trading company. The site focuses on the professional presentation of the client’s business.",
     tags: ["React", "Vite", "Material UI", "Sass (SCSS)"],
@@ -129,6 +135,8 @@ export const projectsData = [
   },
   {
     title: "Ready_to_Go",
+    linkLiveView: "https://readytogoapp.netlify.app",
+    linkGitHub: "https://github.com/RosinskaK/ready_to_go_project",
     description:
       "A to-do list app where users can create a packing list for trips. After logging into the application via a form, the user’s list is saved and stored in the database. List can be edited and reused repeatedly.",
     tags: ["React", "Vite", "Sass", "Supabase"],

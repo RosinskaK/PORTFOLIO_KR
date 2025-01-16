@@ -34,7 +34,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased w-full bg-zinc-50 text-slate-950 relative pt-28 sm:pt-36
          dark:bg-zinc-900 dark:text-zinc-100`}
       >
-        <div className="bg-[#a6acef] absolute h-[32.25rem] rounded-full blur-[9rem] -z-10 dark:bg-[#4268b6] w-[65%]"></div>
+        <div className="bg-[#a4bfff] absolute h-[40rem] rounded-full blur-3xl top-4 -z-10 dark:bg-[#4268b6] w-[65%]"></div>
         <div className="bg-[#eda3ed] right-0 absolute h-[20rem] rounded-full blur-[9rem] -z-20 dark:bg-[#993574] w-[35%]"></div>
         <ActiveSectionContextProvider>
           <Header />

@@ -12,6 +12,8 @@ type ProjectProps = (typeof projectsData)[number];
 
 function Project({
   title,
+  linkLiveView,
+  linkGitHub,
   description,
   tags,
   imageUrl_DT,
@@ -36,13 +38,13 @@ function Project({
     >
       <article
         className="bg-zinc-200 max-w-[42rem] px-4 py-5 relative rounded-xl hover:bg-zinc-300 transition group dark:bg-white/10
-      dark:hover:bg-white/20 dark:transition"
+      dark:hover:bg-white/20 dark:transition shadow-md"
       >
         <div className="flex sm:flex-row sm:pb-4 pb-2 sm:justify-between sm:items-center w-full flex-col justify-center items-center">
           <h3 className="text-2xl font-bold sm:pl-1">{title}</h3>
           <div className="flex pt-6 sm:pt-0 pb-3 sm:pb-0">
             <a
-              href=""
+              href={linkLiveView}
               target="_blank"
               className="flex px-3 text-violet-900 text-base underline italic dark:text-violet-400 justify-center items-center"
             >
@@ -50,7 +52,7 @@ function Project({
               View live: Here
             </a>
             <a
-              href=""
+              href={linkGitHub}
               target="_blank"
               className="flex px-3 text-violet-900 text-base underline italic dark:text-violet-400"
             >
