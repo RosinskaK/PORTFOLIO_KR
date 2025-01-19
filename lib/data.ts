@@ -24,28 +24,24 @@ import { SiTailwindcss } from "react-icons/si";
 import { SiMui } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
 
-
 export const skillsData = [
   {
-    name: "HTML",
-    color: "bg-violet-400",
-    icon: MdHtml,
-  },
-  { name: "CSS", color: "bg-violet-500", icon: MdCss },
-  { name: "Sass", color: "bg-violet-600", icon: FaSass },
-  { name: "ECMAScript 6 (ES6)", color: "bg-violet-400", icon: DiJsBadge },
-  { name: "JavaScript", color: "bg-violet-600", icon: DiJsBadge },
-  { name: "TypeScript", color: "bg-violet-400", icon: SiTypescript },
-  { name: "React", color: "bg-violet-500", icon: SiReact },
-  { name: "Next.js", color: "bg-violet-600", icon: SiNextdotjs },
-  { name: "Git", color: "bg-violet-600", icon: ImGit },
-  { name: "Responsive Web Design", color: "bg-violet-600", icon: MdWeb },
-  { name: "Redux", color: "bg-violet-600", icon: SiRedux },
-  { name: "React Query", color: "bg-violet-600", icon: SiReactquery },
-  { name: "Vite", color: "bg-violet-600", icon: SiVite },
-  { name: "Tailwind", color: "bg-violet-600", icon: SiTailwindcss },
-  { name: "Material UI", color: "bg-violet-600", icon: SiMui },
-  { name: "Framer Motion", color: "bg-violet-600", icon: TbBrandFramerMotion },
+    name: "HTML", icon: MdHtml },
+  { name: "CSS", icon: MdCss },
+  { name: "Sass", icon: FaSass },
+  { name: "ECMAScript 6 (ES6)", icon: DiJsBadge },
+  { name: "JavaScript", icon: DiJsBadge },
+  { name: "TypeScript", icon: SiTypescript },
+  { name: "React", icon: SiReact },
+  { name: "Next.js", icon: SiNextdotjs },
+  { name: "Git", icon: ImGit },
+  { name: "Responsive Web Design", icon: MdWeb },
+  { name: "Redux", icon: SiRedux },
+  { name: "React Query", icon: SiReactquery },
+  { name: "Vite", icon: SiVite },
+  { name: "Tailwind", icon: SiTailwindcss },
+  { name: "Material UI", icon: SiMui },
+  { name: "Framer Motion", icon: TbBrandFramerMotion },
 ] as const;
 
 export const links = [
@@ -144,4 +140,3 @@ export const projectsData = [
     imageUrl_M: readyToGoMobileImg,
   },
 ] as const;
-

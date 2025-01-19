@@ -20,7 +20,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Kasia Rosińska | Portfolio",
   description:
-    "Kasia Rosińska is a front-end developer with one and a half years of experience.",
+    "Kasia Rosińska is a front-end developer with two years of experience.",
 };
 
 export default function RootLayout({
