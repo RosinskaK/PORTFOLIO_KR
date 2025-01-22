@@ -24,7 +24,7 @@ function Experience() {
         {experiencesData.map((exper, i) => (
           <motion.div
             key={i}
-            className="bg-zinc-200 p-4 rounded-xl dark:bg-white/10 shadow-md"
+            className="bg-zinc-100 p-4 rounded-xl dark:bg-white/10 shadow-md"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.3, ease: "easeOut" }}

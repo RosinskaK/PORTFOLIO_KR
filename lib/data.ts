@@ -17,6 +17,7 @@ import { SiReact } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { ImGit } from "react-icons/im";
 import { MdWeb } from "react-icons/md";
+import { FaGithub } from "react-icons/fa6";
 import { SiRedux } from "react-icons/si";
 import { SiReactquery } from "react-icons/si";
 import { SiVite } from "react-icons/si";
@@ -26,7 +27,9 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 
 export const skillsData = [
   {
-    name: "HTML", icon: MdHtml },
+    name: "HTML",
+    icon: MdHtml,
+  },
   { name: "CSS", icon: MdCss },
   { name: "Sass", icon: FaSass },
   { name: "ECMAScript 6 (ES6)", icon: DiJsBadge },
@@ -36,6 +39,7 @@ export const skillsData = [
   { name: "Next.js", icon: SiNextdotjs },
   { name: "Git", icon: ImGit },
   { name: "Responsive Web Design", icon: MdWeb },
+  { name: "GitHub", icon: FaGithub },
   { name: "Redux", icon: SiRedux },
   { name: "React Query", icon: SiReactquery },
   { name: "Vite", icon: SiVite },
@@ -87,7 +91,7 @@ export const experiencesData = [
   {
     title: "JavaScript Developer - graduated from a bootcamp",
     description:
-      "I completed a 9-month program focused on the fundamentals of front-end development, such as HTML, CSS, and JavaScript. During the JavaScript bootcamp, I collaborated with a team to build a project in JavaScript using SCRUM methodology and Trello within 12 days.",
+      "I completed a 9-month program focused on the fundamentals of front-end development, such as HTML, CSS, and JavaScript. During the JavaScript bootcamp, I collaborated with a team to build a project in JavaScript using SCRUM methodology, Git, GitHub and Trello within 12 days.",
     date: "October 2022 - Jun 2023",
   },
 ] as const;

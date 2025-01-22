@@ -58,10 +58,10 @@ const { ref } = useSectionInView("About");
           <span className="underline">love</span> the satisfaction of solving
           problems and seeing everything I&nbsp;planned come together and work
           as intended. My core stack is <span className="font-bold">React</span>
-          , and I&nbsp;also use <span className="font-bold">TypeScript</span>{" "}
+          , I&nbsp;also use <span className="font-bold">TypeScript</span>{" "}
           on&nbsp;a&nbsp;daily basis. I&nbsp;am continuously learning and
           gradually implementing new tools and technologies, such as{" "}
-          <span className="font-bold">Next.js and Tailwind</span> into my
+          <span className="font-bold">Next.js and Tailwindcss</span> into my
           projects. At the moment, I&nbsp;am seeking a&nbsp;
           <span className="font-bold">full-time position</span> as
           a&nbsp;front-end developer.
