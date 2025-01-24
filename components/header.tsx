@@ -35,7 +35,7 @@ export default function Header() {
                   setTimeOfLastClick(Date.now());
                 }}
                 className={clsx(
-                  "flex w-full items-center justify-center py-2 px-3 sm:py-3 hover:text-zinc-950 transition dark:text-zinc-200 dark:hover:text-zinc-200 text-zinc-700",
+                  "flex w-full items-center justify-center py-2 px-3 sm:py-3 hover:text-zinc-950 transition dark:text-zinc-200 dark:hover:text-zinc-200 text-zinc-700 font-semibold",
                   { "text-zinc-950": activeSection === link.name }
                 )}
               >

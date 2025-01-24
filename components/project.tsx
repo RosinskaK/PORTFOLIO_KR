@@ -42,11 +42,11 @@ function Project({
       >
         <div className="flex sm:flex-row sm:pb-4 pb-2 sm:justify-between sm:items-center w-full flex-col justify-center items-center">
           <h3 className="text-2xl font-bold sm:pl-1">{title}</h3>
-          <div className="flex pt-6 sm:pt-0 pb-3 sm:pb-0">
+          <div className="flex pt-4 sm:pt-0 pb-3 sm:pb-0">
             <a
               href={linkLiveView}
               target="_blank"
-              className="flex px-3 text-violet-900 text-base underline italic dark:text-violet-400 justify-center items-center"
+              className="flex px-3 text-violet-900 text-sm sm:text-base underline italic dark:text-violet-400 justify-center items-center"
             >
               <BsGlobe2 className="h-[20px] w-[20px] mr-2 text-zinc-950 dark:text-white/80" />
               View live: Here

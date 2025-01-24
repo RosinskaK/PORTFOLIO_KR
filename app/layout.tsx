@@ -19,6 +19,9 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Kasia Rosińska | Portfolio",
+  icons: {
+    icon: '/favicon.png',
+  },
   description:
     "Kasia Rosińska is a front-end developer with two years of experience.",
 };
