@@ -39,7 +39,7 @@ function Intro() {
           </motion.div>
         </div>
         <motion.h1
-          className="mb-3 mt-0 sm:mt-0 sm:px-4 text-xl font-normal !leading-[1.5] sm:text-3xl sm:pl-8"
+          className="mb-3 mt-0 sm:mt-0 sm:px-4 text-xl font-normal !leading-[1.5] sm:text-2xl sm:pl-8"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >
@@ -53,8 +53,12 @@ function Intro() {
           </span>{" "}
           with <span className="font-bold">two years</span> of&nbsp;experience.
           I&nbsp;enjoy building{" "}
-          <span className="italic">sites &&nbsp;apps</span>. My focus is{" "}
-          <span className="font-semibold">React, Next.js and JavaScript</span>.
+          <span className="italic">websites &&nbsp;apps</span>. My focus is{" "}
+          <span className="font-semibold">React, Next.js</span> and{" "}
+          <span className="font-semibold">JavaScript</span>. <span className="italic"> Welcome to my portfolio!</span> 
+          <br />
+          Scroll down to explore a
+          showcase of my projects and learn more about my professional journey.
         </motion.h1>
       </div>
 
