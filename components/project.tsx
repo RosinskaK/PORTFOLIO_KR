@@ -54,7 +54,7 @@ function Project({
             <a
               href={linkGitHub}
               target="_blank"
-              className="flex px-3 text-violet-900 text-base underline italic dark:text-violet-400"
+              className="flex px-3 text-violet-900 text-sm sm:text-base underline italic dark:text-violet-400"
             >
               <FaGithub className="h-[23px] w-[23px] mr-2 text-zinc-950 dark:text-white/80" />
               code on Github

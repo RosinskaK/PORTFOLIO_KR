@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import imageKR from "../public/kr.jpg";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
+// import { HiDownload } from "react-icons/hi";
 import { SiGithub } from "react-icons/si";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/activeSectionContext";
@@ -82,7 +82,7 @@ function Intro() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-        <a
+        {/* <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 
         active:scale-[1.03] transition cursor-pointer border border-black/10 dark:bg-white/10 whitespace-nowrap dark:hover:text-white"
           href="/CVRosinskaKatarzyna.pdf"
@@ -90,7 +90,7 @@ function Intro() {
         >
           Download CV now{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
+        </a> */}
         <div className="flex flex-row justify-center items-center gap-2 text-lg">
           <a
             className="bg-white p-4 text-zinc-700 hover:text-zinc-950 flex items-center gap-2 rounded-full focus:scale-[1.15] 
