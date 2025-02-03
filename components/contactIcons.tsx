@@ -28,7 +28,8 @@ function ContactIcons() {
       }}
     >
       <SectionHeading>Contact me</SectionHeading>
-      <div className="flex items-center justify-around h-full w-full">
+      <div className="flex items-center justify-around h-full w-full flex-col">
+        <p className="pb-7">Feel free to reach out—I’d love to connect!</p>
         <div className="flex h-6 items-center">
           <IoMdMail className="h-[2rem] w-[2rem] text-violet-800 hover:text-violet-900" />
           <p className="pl-2 text-lg font-semibold">rosinska.eu@gmail.com</p>
