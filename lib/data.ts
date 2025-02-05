@@ -79,7 +79,7 @@ export const experiencesData = [
   {
     title: "Front-end Developer",
     description:
-      "With two years of learning front-end development, I have built diverse projects for my portfolio from the ground up, focusing on seamless user experiences and responsive design. I emphasize reusable components, clean code, and best practices to ensure maintainability and efficiency. Using modern tools like React, TypeScript, Tailwind CSS, and Material UI, I create intuitive, visually appealing interfaces and deliver high-quality software solutions",
+      "With two years of learning front-end development, I have built diverse projects for my portfolio from the ground up, focusing on seamless user experiences and responsive design. I emphasize reusable components, clean code, and best practices to ensure maintainability and efficiency. Using modern tools like React, TypeScript, Tailwind CSS, and Material UI, I create intuitive, visually appealing interfaces and deliver high-quality software solutions.",
     date: "Jun 2023 - present",
   },
   {

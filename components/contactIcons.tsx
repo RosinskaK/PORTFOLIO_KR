@@ -5,6 +5,7 @@ import { motion } from "motion/react";
 import SectionHeading from "./sectionHeading";
 import { useSectionInView } from "@/lib/hooks";
 import { IoMdMail } from "react-icons/io";
+import { BsLinkedin } from "react-icons/bs";
 
 function ContactIcons() {
   const { ref } = useSectionInView("Contact", 0.5);
@@ -33,6 +34,16 @@ function ContactIcons() {
         <div className="flex h-6 items-center">
           <IoMdMail className="h-[2rem] w-[2rem] text-violet-800 hover:text-violet-900" />
           <p className="pl-2 text-lg font-semibold">rosinska.eu@gmail.com</p>
+        </div>
+        <div className="flex h-6 items-center mt-8">
+          <BsLinkedin className="h-auto w-[1.6rem] text-violet-800 hover:text-violet-900" />
+          <a
+            className="pl-2 text-lg font-semibold"
+            href="https://www.linkedin.com/in/katarzyna-rosinska/"
+            target="_blank"
+          >
+            linkedin.com/katarzyna-rosinska
+          </a>
         </div>
       </div>
     </motion.section>

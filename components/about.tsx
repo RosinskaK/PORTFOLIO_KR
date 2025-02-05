@@ -57,12 +57,15 @@ const { ref } = useSectionInView("About");
           planning and breaking down tasks into smaller, manageable parts. I{" "}
           <span className="underline">love</span> the satisfaction of solving
           problems and seeing everything I&nbsp;planned come together and work
-          as intended. My core stack is <span className="font-bold">React</span>
-          , I&nbsp;also use <span className="font-bold">TypeScript</span>{" "}
-          on&nbsp;a&nbsp;daily basis. I&nbsp;am continuously learning and
-          gradually implementing new tools and technologies, such as{" "}
-          <span className="font-bold">Next.js and Tailwindcss</span> into my
-          projects. At the moment, I&nbsp;am seeking a&nbsp;
+          as intended. I primarily work with
+          <span className="font-bold"> React</span>, and use{" "}
+          <span className="font-bold">TypeScript</span> daily. I&nbsp;am
+          continuously learning and gradually implementing new tools and
+          technologies, such as <span className="font-bold">Next.js</span> and{" "}
+          <span className="font-bold">Tailwind CSS, MUI</span> into my projects.
+          Collaboration, clear communication, and a user-first mindset are at
+          the core of my professional approach. At the moment, I&nbsp;am seeking
+          a&nbsp;
           <span className="font-bold">full-time position</span> as
           a&nbsp;front-end developer.
         </p>
