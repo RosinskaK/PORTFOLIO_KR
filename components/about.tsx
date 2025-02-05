@@ -46,11 +46,12 @@ const { ref } = useSectionInView("About");
         {/* <br></br> */}
         <p>
           Before I started learning{" "}
-          <span className="italic font-bold">HTML, CSS, and JavaScript</span>{" "}
-          I&nbsp;thought of programming as a&nbsp;kind of magic, but as
-          I&nbsp;studied it, I&nbsp;realized it’s a&nbsp;fascinating, methodical
-          and enjoyable thing to do. Now, I&nbsp;can't even imagine coding not
-          being a part of my daily life.
+          <span className="italic font-bold">HTML, CSS,</span> and{" "}
+          <span className="italic font-bold">JavaScript</span> I&nbsp;thought of
+          programming as a&nbsp;kind of magic, but as I&nbsp;studied it,
+          I&nbsp;realized it’s a&nbsp;fascinating, methodical and enjoyable
+          thing to do. Now, I&nbsp;can't even imagine coding not being a part of
+          my daily life.
         </p>
         <p className=" indent-3">
           <span className="italic">My favorite aspect of programming</span> is
@@ -64,10 +65,7 @@ const { ref } = useSectionInView("About");
           technologies, such as <span className="font-bold">Next.js</span> and{" "}
           <span className="font-bold">Tailwind CSS, MUI</span> into my projects.
           Collaboration, clear communication, and a user-first mindset are at
-          the core of my professional approach. At the moment, I&nbsp;am seeking
-          a&nbsp;
-          <span className="font-bold">full-time position</span> as
-          a&nbsp;front-end developer.
+          the core of my professional approach.
         </p>
 
         <p className=" indent-3">
