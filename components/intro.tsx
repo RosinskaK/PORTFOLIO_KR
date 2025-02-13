@@ -28,7 +28,7 @@ function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            <div className="w-40 h-auto border-[0.2rem] dark:border-white object-cover rounded-xl border-violet-300 shadow-md">
+            <div className="w-40 h-auto border-[0.2rem] dark:border-white object-cover rounded-xl border-violet-500 shadow-md">
               <Image
                 src={imageKR}
                 alt="kr"
@@ -57,9 +57,11 @@ function Intro() {
           <span className="font-bold">React, Next.js</span> and{" "}
           <span className="font-bold">JavaScript</span>.
           <br />
-          <span className="italic"> Scroll down </span>
-          to explore a showcase of my projects and learn more about my
-          professional journey.
+          <p className="pt-2">
+            <span className="italic"> Scroll down </span>
+            to explore a showcase of my projects and learn more about my
+            professional journey.
+          </p>
         </motion.h1>
       </div>
 
@@ -73,8 +75,9 @@ function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-violet-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.03] 
-          hover:scale-105 hover:bg-violet-950 active:scale-105 transition whitespace-nowrap"
+          className="group bg-black/45 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.03] 
+          hover:scale-105 hover:bg-black/60 hover:font-medium active:scale-105 transition whitespace-nowrap dark:bg-white/70 
+          dark:hover:bg-white/90 dark:text-zinc-900"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());

@@ -5,7 +5,7 @@ function Footer() {
     <footer className="mb-10 px-4 text-center">
       <small>
         <p className="mb-1">
-          <span className="text-violet-400">
+          <span className="dark:text-violet-400 text-violet-800">
             created by &copy;Kasia Rosińska{" "}
           </span>
           <span className="mb-1 text-slate-600">

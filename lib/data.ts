@@ -103,7 +103,14 @@ export const projectsData = [
     linkGitHub: "https://github.com/RosinskaK/Online_shop",
     description:
       "A responsive e-commerce app simulating an online fashion store, where user can browse fashion items, add them to cart and favorite list. Integrated with the FakeStore API to dynamically display product data.",
-    tags: ["React", "TypeScript", "React Query", "Tailwind", "Redux"],
+    tags: [
+      "React",
+      "TypeScript",
+      "REST API",
+      "React Query",
+      "Tailwind",
+      "Redux",
+    ],
     imageUrl_DT: OnlineShopDtImg,
     imageUrl_M: OnlineShopMobileImg,
   },
@@ -115,7 +122,8 @@ export const projectsData = [
       "A website based on TMDB API, modeled on streaming services such as SkyShowTime. It recommends movies premieres as well as popular TV series. Users can save their favorite films in the My List and search for movies using a dedicated search engine. The platform provides detailed information about movies and series, including descriptions, genres, photos, and a link to the trailer on YouTube.",
     tags: [
       "React",
-      "React Router DOM",
+      "REST API",
+      "React Router",
       "Material UI",
       "Context API",
       "Sass (SCSS)",
