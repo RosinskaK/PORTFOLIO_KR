@@ -37,7 +37,7 @@ function Project({
       className=""
     >
       <article
-        className="bg-zinc-100 max-w-[42rem] px-4 py-5 relative rounded-xl hover:bg-zinc-200 transition group dark:bg-white/10
+        className="bg-white max-w-[42rem] px-4 py-5 relative rounded-xl transition group dark:bg-white/10
       dark:hover:bg-white/20 dark:transition shadow-md"
       >
         <div className="flex sm:flex-row sm:pb-4 pb-2 sm:justify-between sm:items-center w-full flex-col justify-center items-center">
@@ -54,7 +54,7 @@ function Project({
             <a
               href={linkGitHub}
               target="_blank"
-              className="flex px-3 text-violet-900 text-sm sm:text-base underline italic dark:text-violet-400"
+              className="flex px-3 text-violet-900 text-sm sm:text-base underline italic dark:text-violet-400 justify-center items-center"
             >
               <FaGithub className="h-[23px] w-[23px] mr-2 text-zinc-950 dark:text-white/80" />
               code on Github
@@ -75,7 +75,7 @@ function Project({
             className="w-auto aspect-auto absolute right-6 rounded-xl top-[6rem] shadow-2xl shadow-black group-hover:scale-110 transition border border-black/10 group-hover:-translate-x-3 h-[260px]"
           />
         </div>
-        <p className="leading-relaxed text-base font-light sm:font-normal bg-white py-1 px-2 rounded-lg dark:bg-white/15 mt-3 mb-2">
+        <p className="leading-relaxed text-base font-light sm:font-normal bg-gray-100 py-1 px-2 rounded-lg dark:bg-white/15 mt-3 mb-2 shadow-inner">
           {description}
         </p>
         <ul className="flex flex-wrap pt-2 gap-2 justify-center">

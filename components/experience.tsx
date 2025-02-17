@@ -24,17 +24,20 @@ function Experience() {
         {experiencesData.map((exper, i) => (
           <motion.div
             key={i}
-            className="bg-zinc-100 p-4 rounded-xl dark:bg-white/10 shadow-md"
+            className="bg-white p-4 rounded-xl dark:bg-white/10 shadow-md"
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.3, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.2 }}
           >
             <h3 className="font-bold text-lg pl-1">{exper.title}</h3>
-            <p className=" text-violet-400 italic text-sm pt-1 pb-2 font-semibold pl-1">
+            <h2 className="italic pl-1 text-sm font-medium pt-[3px] text-zinc-500">
+              {exper.occupation}
+            </h2>
+            <p className=" text-violet-400 italic text-sm pt-1 pb-2 font-medium pl-1">
               {exper.date}
             </p>
-            <p className="font-light sm:font-normal bg-white py-2 px-2 rounded-lg dark:bg-white/15 text-base">
+            <p className="font-light sm:font-normal bg-gray-100 shadow-inner py-2 px-2 rounded-lg dark:bg-white/15 text-base">
               {exper.description}
             </p>
           </motion.div>

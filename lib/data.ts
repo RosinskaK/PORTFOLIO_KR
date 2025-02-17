@@ -78,18 +78,21 @@ export const links = [
 export const experiencesData = [
   {
     title: "Front-end Developer",
+    occupation: "Freelancer",
     description:
       "With two years of learning front-end development, I have built diverse projects for my portfolio from the ground up, focusing on seamless user experiences and responsive design. I emphasize reusable components, clean code, and best practices to ensure maintainability and efficiency. Using modern tools like React, TypeScript, Tailwind CSS, and Material UI, I create intuitive, visually appealing interfaces and deliver high-quality software solutions.",
     date: "Jun 2023 - present",
   },
   {
     title: "React Developer",
+    occupation: "Freelancer",
     description:
       "I designed and developed a React-based commercial website AutoSkup for a trading company. I managed the complete development cycle, starting from client requirements analysis, throughout UI design and its execution to deployment via Netlify. Mainly focusing on the responsiveness of the website and professional presentation of the client's business.",
     date: "February 2024 - March 2024",
   },
   {
-    title: "JavaScript Developer - graduated from a bootcamp",
+    title: "JavaScript Developer",
+    occupation: "Graduated from a bootcamp CodersLab",
     description:
       "I completed a 9-month program focused on the fundamentals of front-end development, such as HTML, CSS, and JavaScript. During the JavaScript bootcamp, I collaborated with a team to build a project in JavaScript using SCRUM methodology, Git, GitHub and Trello within 12 days.",
     date: "October 2022 - Jun 2023",

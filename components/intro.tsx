@@ -57,7 +57,7 @@ function Intro() {
           <span className="font-bold">React, Next.js</span> and{" "}
           <span className="font-bold">JavaScript</span>.
           <br />
-          <p className="pt-2">
+          <p className="pt-1 font-normal">
             <span className="italic"> Scroll down </span>
             to explore a showcase of my projects and learn more about my
             professional journey.
