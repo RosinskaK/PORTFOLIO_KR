@@ -4,7 +4,7 @@ import React from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import Image from "next/image";
-import imageKR from "../public/kr.jpg";
+import imageKR from "../public/krs.jpg";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 // import { HiDownload } from "react-icons/hi";
 import { SiGithub } from "react-icons/si";
@@ -28,7 +28,7 @@ function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            <div className="w-40 h-auto border-[0.2rem] dark:border-white object-cover rounded-xl border-violet-500 shadow-md">
+            <div className="w-40 h-auto border-[0.2rem] dark:border-white object-cover rounded-xl border-black/45 shadow-lg">
               <Image
                 src={imageKR}
                 alt="kr"
@@ -51,13 +51,12 @@ function Intro() {
           <br />a <span className="font-bold italic">
             front-end developer
           </span>{" "}
-          with <span className="font-bold">two years</span> of&nbsp;experience.
-          I&nbsp;enjoy building{" "}
-          <span className="italic">websites &&nbsp;apps</span>. My focus is{" "}
-          <span className="font-bold">React, Next.js</span> and{" "}
-          <span className="font-bold">JavaScript</span>.
+          with two years of&nbsp;experience. I&nbsp;enjoy building websites
+          &&nbsp;apps. My focus is{" "}
+          <span className=" underline">React, Next.js</span> and{" "}
+          <span className=" underline">JavaScript</span>.
           <br />
-          <p className="pt-1 font-normal">
+          <p className="pt-[2px] font-normal sm:text-[22px] sm:leading-8 text-lg leading-7">
             <span className="italic"> Scroll down </span>
             to explore a showcase of my projects and learn more about my
             professional journey.

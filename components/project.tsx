@@ -38,7 +38,7 @@ function Project({
     >
       <article
         className="bg-white max-w-[42rem] px-4 py-5 relative rounded-xl transition group dark:bg-white/10
-      dark:hover:bg-white/20 dark:transition shadow-md"
+      dark:hover:bg-white/20 dark:transition shadow-lg"
       >
         <div className="flex sm:flex-row sm:pb-4 pb-2 sm:justify-between sm:items-center w-full flex-col justify-center items-center">
           <h3 className="text-2xl font-bold sm:pl-1">{title}</h3>
