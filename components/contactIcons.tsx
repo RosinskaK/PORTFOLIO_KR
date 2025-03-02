@@ -38,7 +38,7 @@ function ContactIcons() {
         <div className="flex h-6 items-center mt-8">
           <BsLinkedin className="h-auto w-[1.6rem] text-violet-800 hover:text-violet-900" />
           <a
-            className="pl-2 text-lg font-semibold"
+            className="pl-2 text-lg font-semibold hover:underline hover:underline-offset-4 hover:decoration-purple-600"
             href="https://www.linkedin.com/in/katarzyna-rosinska/"
             target="_blank"
           >

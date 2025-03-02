@@ -28,7 +28,7 @@ function Intro() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ type: "tween", duration: 0.2 }}
           >
-            <div className="w-40 h-auto border-[0.2rem] dark:border-white object-cover rounded-xl border-black/45 shadow-lg">
+            <div className="w-40 h-auto border-[0.2rem] dark:border-white object-cover rounded-xl border-purple-600 shadow-lg">
               <Image
                 src={imageKR}
                 alt="kr"
@@ -74,8 +74,8 @@ function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-black/45 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.03] 
-          hover:scale-105 hover:bg-black/60 hover:font-medium active:scale-105 transition whitespace-nowrap dark:bg-white/70 
+          className="group bg-purple-500 shadow-sm text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-[1.03] 
+          hover:scale-105 hover:bg-purple-600 hover:font-medium active:scale-105 transition whitespace-nowrap dark:bg-white/70 
           dark:hover:bg-white/90 dark:text-zinc-900"
           onClick={() => {
             setActiveSection("Contact");
